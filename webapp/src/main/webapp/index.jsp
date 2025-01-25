@@ -1,6 +1,6 @@
 <form action="action_page.php">
   <div class="container">
-                                     <h1>WELCOME TO DESAMIST TECH ACADAMY</h1>
+                                     <h1>WELCOME TO DESAMIST TECHNOLOGY ACADAMY</h1>
     <P>New user Register for DevOps/AWS Learning by TRAVIS</P>
     <p>Please fill in this form to create an account.</p>
     <hr>
