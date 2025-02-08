@@ -15,6 +15,12 @@ pipeline {
     
         }
     }
+         stage('Approval') {
+            steps {
+                input message: 'Proceed to Deployment?', ok: 'Approve'
+            }
+        }
+        
          stage('continuos delopment') {
             steps {
                 echo 'echo deploying application'
