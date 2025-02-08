@@ -1,0 +1,19 @@
+pipeline {
+    agent any
+
+    stages {
+         stage('continuos download') {
+            steps {
+                echo 'echo dowloading in progress'
+                git branch: 'main', url: 'https://github.com/chamberlain96/registration-app.git'
+            }
+    }
+         stage('continuos build') {
+            steps {
+                echo 'echo building in progress'
+                 sh 'mvn clean install '
+    
+        }
+    }    
+}
+}
