@@ -1,0 +1,18 @@
+node('built-in') {
+    // some block
+    stage('continuous dowload') {
+    // some block
+    echo "dowloading codes from github in progress"
+    git branch: 'main', url: 'https://github.com/chamberlain96/registration-app.git'
+}
+    stage('continuous build') {
+    // some block
+    echo " building in progress"
+    sh 'mvn clean install '
+}
+    stage('continuous deployment') {
+    // some block
+    echo "deployin applicatio"
+    deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://54.86.63.197:8080/')], contextPath: 'travisapp', war: '**/*.war'
+}
+}
