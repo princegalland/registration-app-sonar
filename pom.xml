@@ -38,7 +38,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Travis Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.23.212.41:8081/repository/webapp/</url>
+	      <url>http://204.236.215.225:8081/repository/Travis/</url>
 	    </snapshotRepository>
   </distributionManagement>
 
