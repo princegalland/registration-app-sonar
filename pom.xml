@@ -14,7 +14,7 @@
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
-    <sonar.host.url>http://54.196.204.137:9000/</sonar.host.url>
+    <sonar.host.url>http://54.92.221.35:9000/</sonar.host.url>
     <sonar.login>sqa_22ffc753aec691d765af995f9f953719c0a8b9de</sonar.login>
   </properties>
 
@@ -38,7 +38,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Travis Technologies Snapshot Nexus Repository </name>
-	      <url>http://204.236.215.225:8081/repository/Travis/</url>
+	      <url>http://3.94.159.64:8081/repository/Travis/</url>
 	    </snapshotRepository>
   </distributionManagement>
 
