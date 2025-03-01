@@ -58,8 +58,8 @@ pipeline {
 
         stage('Wait for 4 minutes') {
             steps {
-                echo 'Waiting for 4 minutes before deploying to production...'
-                sleep(time: 4, unit: 'MINUTES')
+                echo 'Waiting for  minutes before deploying to production...'
+                sleep(time: 1, unit: 'MINUTES')
             }
         }
 
