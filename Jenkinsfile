@@ -24,7 +24,6 @@ pipeline {
         }
 
     
-
         stage('Upload to Nexus') {
             steps {
                 echo 'Uploading artifacts to Nexus...'
