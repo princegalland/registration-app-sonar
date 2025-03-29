@@ -5,7 +5,7 @@ pipeline {
         stage('Continuous Download') {
             steps {
                 echo 'Downloading in progress...'
-                git branch: 'main', url: 'https://github.com/chamberlain96/registration-app.git'
+                git branch: 'main', url: 'https://github.com/princegalland/registration-app-sonar.git'
             }
         }
 
